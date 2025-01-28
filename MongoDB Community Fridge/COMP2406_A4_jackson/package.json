@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "jsonschema": "^1.4.0",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.9"
+  }
+}

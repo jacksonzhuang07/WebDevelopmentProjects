@@ -1,0 +1,42 @@
+body{
+  margin-left: 10%;
+}
+
+table{
+  background-color: #eeeeee;
+  color: white;
+  display: inline-block;
+}
+
+table td{
+  padding: 0.5em;
+  color: black;
+  text-align: center;
+}
+table th{
+  background-color: #027d79;
+  padding : 0.5em;
+  font-size: large;
+}
+table tr:hover{
+  background-color: #a1c0ba;
+  cursor: pointer;
+  font-weight: 700;
+}
+table tr:hover > td, table tr:hover < table{
+  color: #092b29;
+  border-collapse: collapse;
+}
+/* Adding a student */
+form{
+  display:inline-block;
+  float: left;
+  margin-right: 1em
+}
+
+.error{
+  background-color: #fa8176;
+}
+.valid{
+  background-color: lightgreen;
+}
